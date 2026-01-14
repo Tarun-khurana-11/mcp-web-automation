@@ -1,0 +1,10 @@
+playwright
+python-dotenv
+mcp
+fastmcp
+langchain
+langchain-core
+langchain-openai
+langchain-mcp-adapters
+langgraph
+deepagents

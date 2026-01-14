@@ -1,0 +1,80 @@
+═══════════════════════════════════════════════════════════════
+  COMPLETE GIT COMMANDS FOR YOUR ACCOUNT
+═══════════════════════════════════════════════════════════════
+
+Your GitHub Account:
+  Username: tarun-khurana-11
+  Email: tarun.khurana@ideafoundation.co.in
+
+Repository URL:
+  https://github.com/tarun-khurana-11/mcp-web-automation
+
+═══════════════════════════════════════════════════════════════
+
+🎯 METHOD 1: Quick Commands (Copy & Paste All)
+───────────────────────────────────────────────────────────────
+
+cd /home/tarun/Desktop/Ideafoundation/mcp
+git init
+git add .
+git commit -m "Initial commit: MCP Web Automation Agents with DeepAgent support"
+git remote add origin https://github.com/tarun-khurana-11/mcp-web-automation.git
+git branch -M main
+git push -u origin main
+
+───────────────────────────────────────────────────────────────
+
+🎯 METHOD 2: Use the Script
+───────────────────────────────────────────────────────────────
+
+./PUSH_TO_GITHUB.sh
+git push -u origin main
+
+───────────────────────────────────────────────────────────────
+
+🔐 AUTHENTICATION
+───────────────────────────────────────────────────────────────
+
+When prompted during 'git push':
+  Username: tarun-khurana-11
+  Password: [Paste your Personal Access Token]
+
+Get Token:
+  1. Visit: https://github.com/settings/tokens
+  2. Click "Generate new token (classic)"
+  3. Name: "MCP Project"
+  4. Select: ✓ repo
+  5. Click "Generate"
+  6. Copy the token (starts with ghp_...)
+
+───────────────────────────────────────────────────────────────
+
+📋 BEFORE FIRST PUSH: Create Repository on GitHub
+───────────────────────────────────────────────────────────────
+
+1. Go to: https://github.com/new
+2. Owner: tarun-khurana-11
+3. Repository name: mcp-web-automation
+4. Description: Intelligent web automation using MCP with LangChain and DeepAgents
+5. Public/Private: Your choice
+6. ⚠️ DO NOT initialize with README
+7. Click "Create repository"
+
+───────────────────────────────────────────────────────────────
+
+✅ AFTER SUCCESSFUL PUSH
+───────────────────────────────────────────────────────────────
+
+Your repository will be at:
+  https://github.com/tarun-khurana-11/mcp-web-automation
+
+Add these topics (on GitHub):
+  - mcp
+  - langchain
+  - deepagent
+  - playwright
+  - web-automation
+  - python
+  - ai-agents
+
+═══════════════════════════════════════════════════════════════
